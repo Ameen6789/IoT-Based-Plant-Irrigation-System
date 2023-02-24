@@ -16,11 +16,11 @@ Other components
 - Relay module
 - 24v DC adapter
 - 9v Battery 
+- External Power (At least 20v)
 
-## Dependencies
+## Dependencies (Libraries)
 
 - Arduino IDE(https://arduino.cc)
-- ESP8266 WIFI
-library(https://arduino-esp8266.readthedocs.io/en/latest/installing.html)
-(https://github.com/Hieromon/ESP8266)
+- ESP8266 WIFI library(https://arduino-esp8266.readthedocs.io/en/latest/installing.html)
 - Blynk library(https://github.com/blynkkk/blynk-library)
+- Time
