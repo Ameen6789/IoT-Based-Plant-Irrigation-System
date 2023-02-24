@@ -4,17 +4,17 @@ IoT Based Plant Irrigation System
 
 ## Hardware
 
-- Nodemcu ESP8266
+- ESP8266
 - Soil moisture sensor
-- Relay module
 - Breadboard
 - Jumper wires
 
 Other components
 
-- Mini water pump
+- Solenoid valve
 - Mini water pipe
-- 9v battery clip
+- Relay module
+- 24v DC adapter
 - 9v Battery 
 
 ## Dependencies
