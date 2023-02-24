@@ -88,4 +88,5 @@ void loop() {
       Serial.println("Solenoid valve closed");
     }
   }
+  delay(3600000);
 }
