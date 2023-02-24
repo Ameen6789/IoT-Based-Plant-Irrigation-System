@@ -7,8 +7,6 @@ IoT Based Plant Irrigation System
 - Nodemcu ESP8266
 - Soil moisture sensor
 - Relay module
-- LCD display
-- I2C module
 - Breadboard
 - Jumper wires
 
@@ -26,4 +24,3 @@ Other components
 library(https://arduino-esp8266.readthedocs.io/en/latest/installing.html)
 (https://github.com/Hieromon/ESP8266)
 - Blynk library(https://github.com/blynkkk/blynk-library)
-- I2C library(https://github.com/johnrickman/LiquidCrystal_I2C)
