@@ -9,15 +9,18 @@
 #define auth                ""      // Blynk authtoken
 #define solenoidPin         D1
 #define moisturePin         A0
-#define moistureThreshold   60;
+#define moistureThreshold   30;
 
 WiFiServer server(80);
 
 void setup()
 {
   Serial.begin(115200);
+  
   pinMode(solenoidPin, OUTPUT);
   digitalWrite(solenoidPin, LOW);
+  
+  pinMode(moisturePin, INPUT);
   Serial.println();
 
   WiFi.begin(SSID, PWD);
